@@ -1,0 +1,19 @@
+{
+  "name": "auth2.0-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
